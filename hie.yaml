@@ -1,2 +1,13 @@
 cradle:
-    stack:
+  stack:
+    - path: "./src"
+      component: "graphics:lib"
+
+    - path: "./app/Main.hs"
+      component: "graphics:exe:graphics-exe"
+
+    - path: "./app/Paths_graphics.hs"
+      component: "graphics:exe:graphics-exe"
+
+    - path: "./test"
+      component: "graphics:test:graphics-test"
